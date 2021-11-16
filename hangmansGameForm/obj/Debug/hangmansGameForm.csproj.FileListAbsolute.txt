@@ -1,0 +1,10 @@
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\bin\Debug\hangmansGameForm.exe.config
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\bin\Debug\hangmansGameForm.exe
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\bin\Debug\hangmansGameForm.pdb
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\obj\Debug\hangmansGameForm.csproj.AssemblyReference.cache
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\obj\Debug\hangmansGameForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\obj\Debug\hangmansGameForm.Properties.Resources.resources
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\obj\Debug\hangmansGameForm.csproj.GenerateResource.cache
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\obj\Debug\hangmansGameForm.csproj.CoreCompileInputs.cache
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\obj\Debug\hangmansGameForm.exe
+C:\Users\Abril\Downloads\Proyecto Final Graficación\hangmansGameForm\obj\Debug\hangmansGameForm.pdb
