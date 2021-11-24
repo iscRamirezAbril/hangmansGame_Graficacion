@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2ef214fb-a7f7-408e-8e06-59b0ca4ab764": {
+      "ProjectGuid": "2ef214fb-a7f7-408e-8e06-59b0ca4ab764",
+      "DisplayName": "hangmansGameForm",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

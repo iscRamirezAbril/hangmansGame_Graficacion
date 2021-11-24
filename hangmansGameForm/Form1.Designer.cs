@@ -1,6 +1,6 @@
 ﻿namespace hangmansGameForm
 {
-    partial class Form1
+    partial class frmPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnNuevoJuego = new System.Windows.Forms.Button();
+            this.pnlTeclado = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlAhorcado = new System.Windows.Forms.Panel();
+            this.pnlPalabra = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblMensaje = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Form1
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkCyan;
+            this.label1.Location = new System.Drawing.Point(181, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(357, 45);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "El juego del ahorcado";
+            // 
+            // btnNuevoJuego
+            // 
+            this.btnNuevoJuego.BackColor = System.Drawing.Color.LightBlue;
+            this.btnNuevoJuego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevoJuego.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevoJuego.Location = new System.Drawing.Point(251, 560);
+            this.btnNuevoJuego.Name = "btnNuevoJuego";
+            this.btnNuevoJuego.Size = new System.Drawing.Size(242, 37);
+            this.btnNuevoJuego.TabIndex = 2;
+            this.btnNuevoJuego.Text = "Nuevo juego";
+            this.btnNuevoJuego.UseVisualStyleBackColor = false;
+            // 
+            // pnlTeclado
+            // 
+            this.pnlTeclado.Location = new System.Drawing.Point(12, 108);
+            this.pnlTeclado.Name = "pnlTeclado";
+            this.pnlTeclado.Size = new System.Drawing.Size(438, 318);
+            this.pnlTeclado.TabIndex = 3;
+            // 
+            // pnlAhorcado
+            // 
+            this.pnlAhorcado.Location = new System.Drawing.Point(485, 108);
+            this.pnlAhorcado.Name = "pnlAhorcado";
+            this.pnlAhorcado.Size = new System.Drawing.Size(226, 318);
+            this.pnlAhorcado.TabIndex = 4;
+            // 
+            // pnlPalabra
+            // 
+            this.pnlPalabra.Location = new System.Drawing.Point(12, 460);
+            this.pnlPalabra.Name = "pnlPalabra";
+            this.pnlPalabra.Size = new System.Drawing.Size(699, 64);
+            this.pnlPalabra.TabIndex = 5;
+            // 
+            // lblMensaje
+            // 
+            this.lblMensaje.AutoSize = true;
+            this.lblMensaje.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensaje.ForeColor = System.Drawing.Color.Red;
+            this.lblMensaje.Location = new System.Drawing.Point(507, 59);
+            this.lblMensaje.Name = "lblMensaje";
+            this.lblMensaje.Size = new System.Drawing.Size(179, 38);
+            this.lblMensaje.TabIndex = 6;
+            this.lblMensaje.Text = "¡Perdiste! D:";
+            // 
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(999, 619);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.ClientSize = new System.Drawing.Size(727, 609);
+            this.ControlBox = false;
+            this.Controls.Add(this.lblMensaje);
+            this.Controls.Add(this.pnlPalabra);
+            this.Controls.Add(this.pnlAhorcado);
+            this.Controls.Add(this.pnlTeclado);
+            this.Controls.Add(this.btnNuevoJuego);
+            this.Controls.Add(this.label1);
+            this.Name = "frmPrincipal";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Juego del ahorcado";
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnNuevoJuego;
+        private System.Windows.Forms.FlowLayoutPanel pnlTeclado;
+        private System.Windows.Forms.Panel pnlAhorcado;
+        private System.Windows.Forms.FlowLayoutPanel pnlPalabra;
+        private System.Windows.Forms.Label lblMensaje;
     }
 }
 
