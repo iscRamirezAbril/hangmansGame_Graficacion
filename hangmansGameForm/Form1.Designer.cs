@@ -35,6 +35,7 @@
             this.pnlPalabra = new System.Windows.Forms.FlowLayoutPanel();
             this.lblMensaje = new System.Windows.Forms.Label();
             this.lblAdivina = new System.Windows.Forms.Label();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -53,7 +54,7 @@
             this.btnNuevoJuego.BackColor = System.Drawing.Color.LightBlue;
             this.btnNuevoJuego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevoJuego.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevoJuego.Location = new System.Drawing.Point(225, 560);
+            this.btnNuevoJuego.Location = new System.Drawing.Point(120, 560);
             this.btnNuevoJuego.Name = "btnNuevoJuego";
             this.btnNuevoJuego.Size = new System.Drawing.Size(242, 37);
             this.btnNuevoJuego.TabIndex = 2;
@@ -70,14 +71,15 @@
             // 
             // pnlAhorcado
             // 
-            this.pnlAhorcado.Location = new System.Drawing.Point(489, 108);
+            this.pnlAhorcado.Location = new System.Drawing.Point(489, 132);
             this.pnlAhorcado.Name = "pnlAhorcado";
-            this.pnlAhorcado.Size = new System.Drawing.Size(226, 318);
+            this.pnlAhorcado.Size = new System.Drawing.Size(226, 273);
             this.pnlAhorcado.TabIndex = 4;
             this.pnlAhorcado.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlAhorcado_Paint);
             // 
             // pnlPalabra
             // 
+            this.pnlPalabra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlPalabra.Location = new System.Drawing.Point(55, 478);
             this.pnlPalabra.Name = "pnlPalabra";
             this.pnlPalabra.Size = new System.Drawing.Size(599, 64);
@@ -99,11 +101,24 @@
             this.lblAdivina.AutoSize = true;
             this.lblAdivina.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdivina.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.lblAdivina.Location = new System.Drawing.Point(218, 440);
+            this.lblAdivina.Location = new System.Drawing.Point(51, 430);
             this.lblAdivina.Name = "lblAdivina";
             this.lblAdivina.Size = new System.Drawing.Size(273, 35);
             this.lblAdivina.TabIndex = 7;
             this.lblAdivina.Text = "¡Adivina la palabra! :D";
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.IndianRed;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(436, 560);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(124, 37);
+            this.btnSalir.TabIndex = 8;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmPrincipal
             // 
@@ -112,6 +127,7 @@
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(727, 609);
             this.ControlBox = false;
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.lblAdivina);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.pnlPalabra);
@@ -138,6 +154,7 @@
         private System.Windows.Forms.FlowLayoutPanel pnlPalabra;
         private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.Label lblAdivina;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 
