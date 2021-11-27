@@ -271,9 +271,6 @@ namespace hangmansGameForm
                         /* Conversión de las letras a tipo string. */
                         txtLetra.Text = txtLetra.Tag.ToString();
                     }
-
-                    // Desactiva el panel de nombre "pnlPalabra" para que el usuario no realice modificaciones.
-                    pnlPalabra.Enabled = false;
                 }
             }
         }
@@ -285,13 +282,7 @@ namespace hangmansGameForm
             iniciarJuego(); // Llamada al método de nombre "iniciarJuego()".
         }
 
-        // |----- Evento #2: Paint -----|
-        /* Este evento permite realizar cualquier instrucción referente al dibujo. */
-        private void pnlAhorcado_Paint(object sender, PaintEventArgs e){
-        
-        }
-
-        // |----- Evento #3: Click -----|
+        // |----- Evento #2: Click -----|
         /* Este evento se activa al momento que se presiona un botón. */
         private void btnNuevoJuego_Click(object sender, EventArgs e){
             pnlAhorcado.Invalidate(); // Reinicio o limpieza del panel de nombre "pnlAhorcado".
