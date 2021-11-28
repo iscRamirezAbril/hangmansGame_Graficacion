@@ -272,6 +272,7 @@ namespace hangmansGameForm
                         txtLetra.Text = txtLetra.Tag.ToString();
                     }
 
+                    // El panel de nombre "pnlPalabra" se deshabilitará.
                     pnlPalabra.Enabled = false;
                 }
             }
