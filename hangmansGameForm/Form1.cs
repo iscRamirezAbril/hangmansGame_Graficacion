@@ -271,6 +271,8 @@ namespace hangmansGameForm
                         /* Conversión de las letras a tipo string. */
                         txtLetra.Text = txtLetra.Tag.ToString();
                     }
+
+                    pnlPalabra.Enabled = false;
                 }
             }
         }
